@@ -1,0 +1,1 @@
+# ai-image-ocr-description-generator
