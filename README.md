@@ -34,50 +34,36 @@ This project is a GenAI-powered application that extracts text from images and g
 git clone https://github.com/Preethikgowda/ai-image-ocr-description-generator.git
 cd ai-image-ocr-description-generator
 2. Set Up Virtual Environment
-bash
-Copy code
 python -m venv venv
 venv\Scripts\activate     # Windows
 3. Install Dependencies
-bash
-Copy code
 pip install -r requirements.txt
 4. Run the App
 streamlit run genai_ocr_app.py
 
 📝 Requirements
-You can create a requirements.txt using:
-pip freeze > requirements.txt
+ requirements.txt
 
 Essential libraries include:
-
 streamlit
-
 transformers
-
 pytesseract
-
 opencv-python
-
 Pillow
-
 torch
-
 sentencepiece
-
 numpy
 
 📂 Project Structure
-bash
-Copy code
+
 ├── genai_ocr_app.py         # Main Streamlit app
 ├── venv/                    # Virtual environment (excluded from Git)
 ├── .gitignore               # Files/folders to ignore
 ├── requirements.txt         # Project dependencies
 └── README.md                # Project overview
+
 📷 Sample Output
 Extracted Text: Displays printed or handwritten text from image.
-
 Image Description: AI-generated summary like "A group of people standing near a whiteboard."
 
 🧠 Use Cases
